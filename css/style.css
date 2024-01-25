@@ -530,29 +530,48 @@ button a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  header {
-    display: block;
-    height: 100%;
-  }
+    header {
+        display: block;
+        height: 100%;
+    }
 
-  .nav-container {
-    display: block;
-  }
-  .hero {
-      display: block;;
-  }
-  .section-1 {
-    display: block;
-    align-content: center;
-  }
+    .nav-container {
+        display: block;
+    }
 
-  .section-1-left {
-    width: 80%;
-    margin-left: 50px;
-  }
+    .hero {
+        display: block;;
+    }
 
-  .section-1-right {
-    width: 80%;
-    margin-right: 50px;
-  }
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-1-left {
+        width: 80%;
+        margin: 50px;
+    }
+
+    .section-1-left img {
+        width: 100%;
+        padding: 50px;
+    }
+
+
+    .section-1-right {
+        width: 80%;
+    }
+
+    .section-1-right img {
+        display: block;
+        width: 50%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
