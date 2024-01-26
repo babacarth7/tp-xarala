@@ -249,7 +249,7 @@ button a {
 }
 
 .section-3 {
-    background-image: url("/images/img-6.jpeg");
+    background-image: url("../images/img-6.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -310,7 +310,7 @@ button a {
 .conteneur {
     height: 300px;
     padding: 15px;
-    background-image: url("/images/img-6.jpeg");
+    background-image: url("../images/img-6.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -377,7 +377,7 @@ button a {
 
 .section-7 {
     padding: 15px;
-    background-image: url("/images/img-6.jpeg");
+    background-image: url("../images/img-6.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -543,6 +543,15 @@ button a {
         display: block;;
     }
 
+    .hero-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-left p {
+        inline-size: 100%;
+    }
+
     .section-1 {
         display: flex;
         justify-content: center;
@@ -561,7 +570,13 @@ button a {
 
 
     .section-1-right {
-        width: 80%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-1-right p {
+        padding-left: 10px;
     }
 
     .section-1-right img {
